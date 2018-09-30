@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://b2b.com/index.html</loc>
+    <lastmod>2018-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://b2b.com/images/gnit_kolkata_logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://b2b.com/images/picture.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://b2b.com/images/50-best-facebook-logo-icons-gif-transparent-png-images-54.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://b2b.com/images/25594155_1168166966651214_7710534543789854613_n-crop-u402.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://b2b.com/images/29352077_1235275576607019_4191307735006979799_o-crop-u455.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://b2b.com/images/29749425_1235358819932028_7135259825693414865_o-crop-u482.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://b2b.com/events.html</loc>
+    <lastmod>2018-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://b2b.com/projects.html</loc>
+    <lastmod>2018-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://b2b.com/assets/facebook-icon.bmp</loc>
+    <lastmod>2018-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
