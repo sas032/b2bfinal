@@ -22,6 +22,21 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
   <![endif]-->
   <link rel="shortcut icon" type="image/x-icon" href="\b2bfinal\images\final.ico" />
+
+  <style type="text/css">
+    .button {
+        background-color: #008CBA;
+        border: none;
+        color: white;
+        margin: 10px;
+        border-radius: 8px;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+  </style>
    </head>
  <body>
 <div class="clearfix borderbox" id="page"><!-- group -->
@@ -45,16 +60,19 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </nav>
    </div>
    <img class="grpelem" id="u863-4" alt="PROJECTS DEVELOPED AND BEING DEVELOPED" src="images/12.png?crc=373085943" data-image-width="659"/><!-- rasterized frame -->
-    <div class="verticalspacer" data-offset-top="149" data-content-above-spacer="146" data-content-below-spacer="351" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+
     </div>
     <center>
-    Select By Year: &emsp;<select>
-      <option value="Select By Year">Select By Year</option>
-      <option value="2015">2015</option>
-      <option value="2016">2016</option>
-      <option value="2017">2017</option>
-    </select>
-
+      <form action="projects.php" method="POST">
+            Select By Year: &emsp;<select name="year">
+              <option value="-1">Select By Year</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+            </select>
+            <br>
+            <input type="submit" class="button" name="submit" value="Submit">
+    </form>
   </center>
 
   <!-- Other scripts -->
