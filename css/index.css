@@ -4,6 +4,19 @@
 	background-color: #72201F;
 }
 
+    .button {
+        background-color: #008CBA;
+        border: none;
+        color: white;
+        margin: 2px;
+        border-radius: 8px;
+        padding: 3px 18px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer; 
+    }
 #page
 {
 	z-index: 1;
